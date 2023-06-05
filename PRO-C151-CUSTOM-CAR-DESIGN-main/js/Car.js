@@ -9,8 +9,5 @@ AFRAME.registerComponent("car-model", {
     const rotation = { x: 0, y: -100, z: 0 };
     this.el.setAttribute("position", position);
     this.el.setAttribute("rotation", rotation);
-  },
-  
-    
-  
+  }
 });
